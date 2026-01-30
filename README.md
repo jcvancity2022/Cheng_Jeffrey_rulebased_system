@@ -1,4 +1,4 @@
-Cheng_Jeffrey_rulebased_system
+#Cheng_Jeffrey_rulebased_system
 Overview
 
 Cheng_Jeffrey_rulebased_system is a rule‑based generative architecture and visualization system built in Python using Matplotlib. The project explores liminal architecture by algorithmically constructing a resort‑above / mall‑below megastructure inspired by real‑world courtyard resorts (e.g. RIU‑style hotels).
