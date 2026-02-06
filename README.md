@@ -4,6 +4,8 @@
 
 Cheng_Jeffrey_rulebased_system is a rule‑based generative architecture and visualization system built in Python using Matplotlib. The project explores liminal architecture by algorithmically constructing a resort‑above / mall‑below megastructure inspired by real‑world courtyard resorts (e.g. RIU‑style hotels).
 
+**Assignment Option Chosen:** Option 2 – Generative Art System (L‑System based, plus a rule‑based architectural renderer)
+
 The system emphasizes:
 
 - Clear architectural hierarchy (center mass → folded wings)
@@ -102,13 +104,23 @@ This project runs entirely locally and does not require GPU acceleration.
 2. Run all cells from top to bottom.
 3. Optionally explore Assignment_2Basedetailwork.ipynb for extra wing detail studies.
 
-The system outputs high‑resolution architectural diagrams:
+The system outputs high‑resolution architectural diagrams (at least five examples):
 
 - liminal_resort_mall.png
 - liminal_resort_mall_as_2.png
 - liminal_resort_mall_as_3.png
 - liminal_resort_mall_as_4.png
 - liminal_resort_mall_as_5.png
+
+### Output Notes (How each example was generated)
+
+- **liminal_resort_mall.png**: Base render from `render_scene()` with default global parameters.
+- **liminal_resort_mall_as_2.png**: Variation 2 with updated mall facade pattern and palette tweaks.
+- **liminal_resort_mall_as_3.png**: Variation 3 with expanded scale, stronger curvature, and blue mall palette.
+- **liminal_resort_mall_as_4.png**: Variation 4 with distorted curves and messy palm styling.
+- **liminal_resort_mall_as_5.png**: Variation 5 with unique facade overlay and faceted rock textures.
+
+**Note:** L‑system grammars and string expansion are implemented in the notebook. The final saved outputs above come from the architectural renderer, which uses rule‑based geometry and palette variations to produce distinct visual patterns.
 
 You may safely adjust:
 
@@ -118,6 +130,11 @@ You may safely adjust:
 - Mall depth and width
 
 Avoid changing perspective math unless you understand the hierarchy.
+
+## Documentation Deliverables
+
+- Technical Documentation: [Technical_Documentation.md](Technical_Documentation.md)
+- Creative Statement: [Creative_Statement.md](Creative_Statement.md)
 
 ## Design Intent
 
